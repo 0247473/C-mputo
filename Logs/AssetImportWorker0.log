@@ -1,0 +1,2071 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 16235 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/moral/Desktop/6to Semestre/Computo_Distribuido/Deskinz
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53070
+Successfully changed project path to: C:/Users/moral/Desktop/6to Semestre/Computo_Distribuido/Deskinz
+C:/Users/moral/Desktop/6to Semestre/Computo_Distribuido/Deskinz
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [42748] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 551782195 [EditorId] 551782195 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8D4V9KJJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [42748] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 551782195 [EditorId] 551782195 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8D4V9KJJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 7.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/moral/Desktop/6to Semestre/Computo_Distribuido/Deskinz/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2892
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2022.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006799 seconds.
+- Loaded All Assemblies, in  0.464 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.301 seconds
+Domain Reload Profiling: 762ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (302ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (237ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (93ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.560 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.462 seconds
+Domain Reload Profiling: 1017ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (335ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3605.
+Memory consumption went from 139.1 MB to 139.0 MB.
+Total: 3.215400 ms (FindLiveObjects: 0.204300 ms CreateObjectMapping: 0.090500 ms MarkObjects: 2.822300 ms  DeleteObjects: 0.097300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 508187.889722 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures/cigarette.tga
+  artifactKey: Guid(d60b02ebcd90f7e43937c35e31a4e9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures/cigarette.tga using Guid(d60b02ebcd90f7e43937c35e31a4e9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd974f218b419256b457d5a0601514234') in 0.043425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003699 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/Materials/rock_02.mat
+  artifactKey: Guid(4472013b98d2b3d45add834d6701025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/Materials/rock_02.mat using Guid(4472013b98d2b3d45add834d6701025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8a156cf3cf19af8667d4961b68459f') in 0.218637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.007352 seconds.
+  path: Assets/Sand textures pack/Sand 05
+  artifactKey: Guid(b6f9d25f65344ca43b54f137e6cb9c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 05 using Guid(b6f9d25f65344ca43b54f137e6cb9c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811e17a1680e88a05d7565ad17e2bcea') in 0.000558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003117 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c686a485411b244d6b24147d7663491') in 0.000930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002838 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/EMUI_Animations.cs
+  artifactKey: Guid(65c5c51c5b872fc4198273a87881bdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/EMUI_Animations.cs using Guid(65c5c51c5b872fc4198273a87881bdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6151b80ed75876dd58b69d6ba051361') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.020311 seconds.
+  path: Assets/ParticleShadersVol1/Textures/smoke_03_matted.tga
+  artifactKey: Guid(7503887c5d6ea694d84ad8f50474a3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Textures/smoke_03_matted.tga using Guid(7503887c5d6ea694d84ad8f50474a3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6232b60501c77a74d16441d53000529b') in 0.014980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003534 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/GetName.cs
+  artifactKey: Guid(a444cf364c9d7d14aaedb8d264e5df21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/GetName.cs using Guid(a444cf364c9d7d14aaedb8d264e5df21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41ca72c7fadea58f63bf09817cb5ca0') in 0.000520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005665 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f431fb395f9d0dbbb787304cdb51f5') in 0.000457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002743 seconds.
+  path: Assets/Sand textures pack/Sand 04/Sand pattern 04.mat
+  artifactKey: Guid(5316922ceb4b0e049a0264d9d31c6a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 04/Sand pattern 04.mat using Guid(5316922ceb4b0e049a0264d9d31c6a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8461c6c6fc9db5c3afc9af122e095e') in 0.013942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003003 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Animations/idle.anim
+  artifactKey: Guid(0957f483b3546b542afd58f40c46831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Animations/idle.anim using Guid(0957f483b3546b542afd58f40c46831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5011823965b14d6d635445f6add6fcb0') in 0.001232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005439 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures/cloud_atlas_01.tga
+  artifactKey: Guid(0c8a807e7ef999743b0311136d3e0884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures/cloud_atlas_01.tga using Guid(0c8a807e7ef999743b0311136d3e0884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90caf7544a4a1b935ec45b312003787b') in 0.011393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007350 seconds.
+  path: Assets/Sand textures pack/Sand 03
+  artifactKey: Guid(bcfc93b365251ee448d6d393442030fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 03 using Guid(bcfc93b365251ee448d6d393442030fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498a89d3e4361bb8a3405ffb45b09d46') in 0.000386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006570 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/ColorPicker.cs
+  artifactKey: Guid(532c76d50f9fea44c86f514c4ac8d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/ColorPicker.cs using Guid(532c76d50f9fea44c86f514c4ac8d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49017820e9f19ea7f40ef92659011d65') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002760 seconds.
+  path: Assets/ParticleShadersVol1/Shaders/EMParticleLighting.cginc
+  artifactKey: Guid(ce300e0cb3c6c674c9180f6d2a9f2a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Shaders/EMParticleLighting.cginc using Guid(ce300e0cb3c6c674c9180f6d2a9f2a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb131548b08b79752313b74588b5412') in 0.000712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010213 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd
+  artifactKey: Guid(bfd675cc0db1d4656b75dc6d6ba91142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd using Guid(bfd675cc0db1d4656b75dc6d6ba91142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0778b86da0f0c2f787c90a4d962cfc4b') in 0.011398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002986 seconds.
+  path: Assets/RainMaker/Demo/GrayMaterial.mat
+  artifactKey: Guid(fb89a550e9ade2b4ab6d5d17a5195c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/GrayMaterial.mat using Guid(fb89a550e9ade2b4ab6d5d17a5195c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db7602e524d49caf69bdcfa2337acb7') in 0.007699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.012294 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(f094b7875e5abd544b401eaef1b77d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(f094b7875e5abd544b401eaef1b77d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e748fd15619f95f80828fcf60ffe017') in 0.008718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007253 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_lit.mat
+  artifactKey: Guid(f150bffd033ae0849a6e54119c1f169f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_lit.mat using Guid(f150bffd033ae0849a6e54119c1f169f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba094efa45f541629cf887bdb9dff747') in 0.018717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003567 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Animations/Canvas.controller
+  artifactKey: Guid(02ef60f33beb93448be0090a85edaa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Animations/Canvas.controller using Guid(02ef60f33beb93448be0090a85edaa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19969e00e0714866bddb4cba01a6cd30') in 0.003904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.002605 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/Materials/rock_01.mat
+  artifactKey: Guid(822f0152fd41a6447aa6ad3d07fc900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/Materials/rock_01.mat using Guid(822f0152fd41a6447aa6ad3d07fc900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da8410b8cb0a3a0d4b70ce2665a0f71') in 0.012325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.006401 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp
+  artifactKey: Guid(58a059b07b093a745b47c2191525ddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp using Guid(58a059b07b093a745b47c2191525ddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8758ac27eaa74c5d12b2a1598accb4c') in 0.013343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006042 seconds.
+  path: Assets/Scripts/LoadGame.cs
+  artifactKey: Guid(58acdebe1a04c9e479fb7b6ea97b572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoadGame.cs using Guid(58acdebe1a04c9e479fb7b6ea97b572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57a33b32a808685f17e25e5d13c3f1a') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003327 seconds.
+  path: Assets/Sand textures pack/Sand 05/preview.jpg
+  artifactKey: Guid(784e6c9e2fe61334ea00c90f586799b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 05/preview.jpg using Guid(784e6c9e2fe61334ea00c90f586799b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3913cb7358ad032195e0a3aed57a4b') in 0.009422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010726 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_01_lit_alpha_erosion.mat
+  artifactKey: Guid(1b7b0cc3b935742448ddcbcb8da86841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_01_lit_alpha_erosion.mat using Guid(1b7b0cc3b935742448ddcbcb8da86841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2ec57e0fcd6eee8509e0b758e6071a') in 0.011603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003356 seconds.
+  path: Assets/ParticleShadersVol1/sample_scene.unity
+  artifactKey: Guid(035b5425bc70e7b40bba1ba29f98554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/sample_scene.unity using Guid(035b5425bc70e7b40bba1ba29f98554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4751494c05f466ce7d93269bfe0ea9') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002887 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Animations/ui_info_bar_fadein.anim
+  artifactKey: Guid(70bcc1ebc4751f248a92cf67a16a3e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Animations/ui_info_bar_fadein.anim using Guid(70bcc1ebc4751f248a92cf67a16a3e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba1a3b1b24ff93914e291830c2441b4') in 0.003519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009069 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/sample_scene
+  artifactKey: Guid(1ece5ee6d9ca2a144833e51b2cee04bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/sample_scene using Guid(1ece5ee6d9ca2a144833e51b2cee04bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f5a391d03c5e33ec7238c9f2ddcd89') in 0.000312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011208 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25524e152126d39616bdb6d7e34b8aa6') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001727 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets
+  artifactKey: Guid(064224231d1ca924b8aa8cc672400c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets using Guid(064224231d1ca924b8aa8cc672400c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9c355eda5b111e642643b21e3640a4') in 0.000330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006255 seconds.
+  path: Assets/Sand textures pack/Sand 04/diffuse.tga
+  artifactKey: Guid(b3a688c8751b80348b50c839645b1893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 04/diffuse.tga using Guid(b3a688c8751b80348b50c839645b1893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a03230c4b8039961ab0336a20567a00') in 0.011300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003281 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/dust_01_lit.mat
+  artifactKey: Guid(6543c6a3497487749a7496c68bd99835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/dust_01_lit.mat using Guid(6543c6a3497487749a7496c68bd99835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f3672eb5b739e565d0cfe88142dfa8') in 0.009611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003996 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_lit_alpha_erosion_emissive.mat
+  artifactKey: Guid(165f11f772ea34b448194e76d104dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_lit_alpha_erosion_emissive.mat using Guid(165f11f772ea34b448194e76d104dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b475dfcb8dc531337c9877caad81fc') in 0.011245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004427 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/rock_01.FBX
+  artifactKey: Guid(44a1fd27e62500548b2f92a145fb11da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/rock_01.FBX using Guid(44a1fd27e62500548b2f92a145fb11da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00b2ff5473d29d0be97bd74609e93ff') in 0.037096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.003210 seconds.
+  path: Assets/ParticleShadersVol1/Shaders/EM_Particles_Lit.shader
+  artifactKey: Guid(2a0e46061b7401343bf39e72b149cb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Shaders/EM_Particles_Lit.shader using Guid(2a0e46061b7401343bf39e72b149cb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c77345de200a7d438efeb6f5a053167') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003626 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures/terrain_01.png
+  artifactKey: Guid(4fb1aa86a36df5347a965a6ff922d847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures/terrain_01.png using Guid(4fb1aa86a36df5347a965a6ff922d847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980025e7bb6e4c030a649c6caea719b1') in 0.007728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004284 seconds.
+  path: Assets/Sand textures pack/Sand 08
+  artifactKey: Guid(442a5ea49ae93fd42bfcac6861e84f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 08 using Guid(442a5ea49ae93fd42bfcac6861e84f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edf320ea0475d64ce3dc3ac90a8a010') in 0.000363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002692 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_additive_U5_Blend.mat
+  artifactKey: Guid(15555cf1b009c994e869ea7dae8b15d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_additive_U5_Blend.mat using Guid(15555cf1b009c994e869ea7dae8b15d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e095584303e5170b2e81d64c61bad56') in 0.028964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003686 seconds.
+  path: Assets/Objects/Materials/oro.mat
+  artifactKey: Guid(d97b85361c892414ba6f70137e346dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Materials/oro.mat using Guid(d97b85361c892414ba6f70137e346dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081f56e69b7595200bec46667523de55') in 0.009014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003400 seconds.
+  path: Assets/Objects/Materials/negro.mat
+  artifactKey: Guid(73ca9001efc059341ade2096b5e9c343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Materials/negro.mat using Guid(73ca9001efc059341ade2096b5e9c343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536894e65e334c1e31df93275dbe6bda') in 0.007193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005125 seconds.
+  path: Assets/Sand textures pack/Sand 04/preview.jpg
+  artifactKey: Guid(694b20c372c6c0b45bf35c32e619ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 04/preview.jpg using Guid(694b20c372c6c0b45bf35c32e619ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa401e10150adcbf29a648987a4bd73f') in 0.008409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003113 seconds.
+  path: Assets/RainMaker/Demo/DemoScene2D.unity
+  artifactKey: Guid(7020d8e1edef24e46aec84186d10ebe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/DemoScene2D.unity using Guid(7020d8e1edef24e46aec84186d10ebe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a700ed85586c058144c40ee308d94ba') in 0.000412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001936 seconds.
+  path: Assets/Sand textures pack/Sand 06
+  artifactKey: Guid(4113f38c921d4f241ae11e3d2ea09c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 06 using Guid(4113f38c921d4f241ae11e3d2ea09c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b0c8202332060a6968202b9b11b1c8') in 0.000276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002844 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8365c14771796ff17d339b61ffd2609') in 0.000745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002435 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_01_lit_alpha_erosion_emissive.mat
+  artifactKey: Guid(5ca454457484c3542b9dcbcac09d2d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_01_lit_alpha_erosion_emissive.mat using Guid(5ca454457484c3542b9dcbcac09d2d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0925fd3082957bc06fb1517772797d') in 0.004904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007256 seconds.
+  path: Assets/ParticleShadersVol1/README.txt
+  artifactKey: Guid(fadd5ad251fc1354d8089a597c7d91d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/README.txt using Guid(fadd5ad251fc1354d8089a597c7d91d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3881fb20055b6c9e71531b7753ca47a') in 0.001332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.027078 seconds.
+  path: Assets/Objects/Shovel_Texture4K
+  artifactKey: Guid(9783a4541a40dbe48b3b01e176b0d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Shovel_Texture4K using Guid(9783a4541a40dbe48b3b01e176b0d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9261d7802c84a61be546bffbc287b7') in 0.000441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012399 seconds.
+  path: Assets/Objects/Shovel_Texture4K/Shovel_Roughness.png
+  artifactKey: Guid(c3e5863dc4bf3334c85d5998d8855e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Shovel_Texture4K/Shovel_Roughness.png using Guid(c3e5863dc4bf3334c85d5998d8855e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b16a09f08a09446c8e7f4f680d06dbb') in 0.013714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004034 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9e993303cd55f9b595f901a75c7945') in 0.047484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.008951 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures/mouse.png
+  artifactKey: Guid(8185ec428857f7f4eab186f3b3a4b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures/mouse.png using Guid(8185ec428857f7f4eab186f3b3a4b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fce4bc221cbe24097ef8630b9a6ed3e') in 0.021721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003956 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af00edb55e05cf3e37977090ae9927d6') in 0.001597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015217 seconds.
+  path: Assets/ParticleShadersVol1/Textures/smoke_03_clear.tga
+  artifactKey: Guid(a2b8ba3c7b666a74aa4fb0377f04ad6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Textures/smoke_03_clear.tga using Guid(a2b8ba3c7b666a74aa4fb0377f04ad6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a157a0e9c6845b2917e8e25ebf9bac9') in 0.013177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020680 seconds.
+  path: Assets/Sand textures pack/Sand 04
+  artifactKey: Guid(ddaec5e03bd0fad46aa99a06020b94a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 04 using Guid(ddaec5e03bd0fad46aa99a06020b94a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6ee2e6f749e92de70730bf642a3740') in 0.000765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.020626 seconds.
+  path: Assets/RainMaker/Editor
+  artifactKey: Guid(3f9edad49d07614488775a4a8e093315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Editor using Guid(3f9edad49d07614488775a4a8e093315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7414d440bc58fcc914f0036a1cbf92b1') in 0.000573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017807 seconds.
+  path: Assets/Sand textures pack/Sand 05/Sand pattern 05.mat
+  artifactKey: Guid(0fe09d884d05833478278bfad09bb050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 05/Sand pattern 05.mat using Guid(0fe09d884d05833478278bfad09bb050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46847279310d6a343c1aabf875a9218') in 0.019582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011584 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/dust_01_additive.mat
+  artifactKey: Guid(d5c7b998cb759734090dbada4b0195cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/dust_01_additive.mat using Guid(d5c7b998cb759734090dbada4b0195cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5474c0aecb0cad2605d885f191d54c9') in 0.011306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007247 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_additive_erosion.mat
+  artifactKey: Guid(b0bba9ce5eb5f6744867a89231a4cbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_additive_erosion.mat using Guid(b0bba9ce5eb5f6744867a89231a4cbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb86e6866a7f7d71c1bb6e48e9d23de') in 0.032259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010375 seconds.
+  path: Assets/Objects/Materials/images.mat
+  artifactKey: Guid(b8ee313a4a2fe3b409fb917caf724e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Materials/images.mat using Guid(b8ee313a4a2fe3b409fb917caf724e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720baa5ca18238d8deb89a4d9c0bde50') in 0.008345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024628 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Red.mat
+  artifactKey: Guid(fd9e2dab16efd4043bae728ab4a21827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Red.mat using Guid(fd9e2dab16efd4043bae728ab4a21827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4696dc76289c3d6a830c22174bb28a') in 0.022223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005933 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f57928ea3e50016ba38984b95b8e5d') in 0.003134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003983 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Meshes
+  artifactKey: Guid(6fe17d75d25d0d145b9e14d042a93125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Meshes using Guid(6fe17d75d25d0d145b9e14d042a93125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c62ebe150764eefd5e85bca0b07557f') in 0.000512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008726 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb85272f58133ee39b1d07359fcb503') in 0.001455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017085 seconds.
+  path: Assets/Sand textures pack/Sand 05/diffuse.tga
+  artifactKey: Guid(c16540716d43a52419d74c2940ffe2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 05/diffuse.tga using Guid(c16540716d43a52419d74c2940ffe2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c5a6001eda241c4068fe57625eefa4') in 0.010286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010739 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bad319e7e76795027dd76904d4b89b') in 0.001153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004530 seconds.
+  path: Assets/RainMaker/Demo/DemoScriptStartRainOnSpaceBar.cs
+  artifactKey: Guid(0ec1ec4eb1481524d8ee3b3a4d43da96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/DemoScriptStartRainOnSpaceBar.cs using Guid(0ec1ec4eb1481524d8ee3b3a4d43da96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd623d142a147f4cd8ce77587c8fb4c72') in 0.000945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002917 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Animations
+  artifactKey: Guid(5e06353ad5ab84a45b8ea771e553df7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Animations using Guid(5e06353ad5ab84a45b8ea771e553df7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42bdb6e254312df4d0682edd036f173') in 0.000893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003993 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d0d565c80eed902ab8a5b1ea83cabb') in 0.001193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003109 seconds.
+  path: Assets/ParticleShadersVol1/Shaders
+  artifactKey: Guid(e311f03155c1b3b4bae60c9b5730f60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Shaders using Guid(e311f03155c1b3b4bae60c9b5730f60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c5988d5ffbc70e8dd95a7b4a974a52') in 0.000816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004274 seconds.
+  path: Assets/ParticleShadersVol1/Editor/EMMaterialInspector.cs
+  artifactKey: Guid(c7d520d3647a0304f9469bd56e6bcda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Editor/EMMaterialInspector.cs using Guid(c7d520d3647a0304f9469bd56e6bcda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd048e3adaf4970b20a3672cb38ad0e') in 0.000581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005327 seconds.
+  path: Assets/Sand textures pack/Sand 09/preview.jpg
+  artifactKey: Guid(11a2e73c603c56348baeadc3ae3e15d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 09/preview.jpg using Guid(11a2e73c603c56348baeadc3ae3e15d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7aec652729abd6e04cd55cb49e5cdde') in 0.011439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006301 seconds.
+  path: Assets/RainMaker/Demo/DemoScript.cs
+  artifactKey: Guid(48b592a089d06c44b8340d68e40c31d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/DemoScript.cs using Guid(48b592a089d06c44b8340d68e40c31d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4379d35eb4c366695379658c85f569fe') in 0.000687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009070 seconds.
+  path: Assets/ParticleShadersVol1/Textures/smoke_02.tga
+  artifactKey: Guid(52fe7e3262f31cc4b97a96d280218d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Textures/smoke_02.tga using Guid(52fe7e3262f31cc4b97a96d280218d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec3a76bc56d237fbcaf42d630c293d0') in 0.010658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009578 seconds.
+  path: Assets/Sand textures pack/Sand 09/normal.tga
+  artifactKey: Guid(db2aff9b79c106746afb3167aeea3bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 09/normal.tga using Guid(db2aff9b79c106746afb3167aeea3bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62491b469e9768f2e90ca53025696f54') in 0.013587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004194 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19d10bcde0c4232c312de6ddfa27057') in 0.018480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011221 seconds.
+  path: Assets/Sand textures pack/Sand 07/Sand pattern 07.mat
+  artifactKey: Guid(3656d0aa017075d48939785eefd39dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 07/Sand pattern 07.mat using Guid(3656d0aa017075d48939785eefd39dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d12bb14f388705f5a76e0b799e3166') in 0.011265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002658 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4be22d1ef66f63031ca6da898dd5950') in 0.000439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007732 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures/help.png
+  artifactKey: Guid(44e9f95e2c32fab4788b31b25de35dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures/help.png using Guid(44e9f95e2c32fab4788b31b25de35dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477ae7898eac289d83c8e6b30d8ad2d2') in 0.021226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004003 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/ExamplesController.cs
+  artifactKey: Guid(fb1b46345153f26478037cb77e38d3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/ExamplesController.cs using Guid(fb1b46345153f26478037cb77e38d3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf44e92ba13232705e9f29cb9338466') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003405 seconds.
+  path: Assets/RainMaker/Prefab/RainScript.cs
+  artifactKey: Guid(6ff5b1f04dece7440b6f0886ee13f147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/RainScript.cs using Guid(6ff5b1f04dece7440b6f0886ee13f147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a44bac667648a19c289c4d8b3404609') in 0.000390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006640 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Animations/SpotLights.controller
+  artifactKey: Guid(c5590ddce9a1e6949b7b6ba44bb1ec65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Animations/SpotLights.controller using Guid(c5590ddce9a1e6949b7b6ba44bb1ec65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d147210075815006e8c12d1d1b5e2b') in 0.003283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.003274 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(56e4bf0a6a0d937428cd0051c6cb1b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(56e4bf0a6a0d937428cd0051c6cb1b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cd9314f4be080f7b23a7fee0139e30') in 0.008749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007080 seconds.
+  path: Assets/Objects/Shovel_Texture4K/Shovel_Height.png
+  artifactKey: Guid(8a6af3ee7b19fca4eb75c13e78eb6f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Shovel_Texture4K/Shovel_Height.png using Guid(8a6af3ee7b19fca4eb75c13e78eb6f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5d070aac487e453342e6b5dcfcf3eb') in 0.012527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004687 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d0dae0f47f91f6f5c0463596ac0cff') in 0.000748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004675 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd561f6893285eb56121731527b8748f5') in 0.009140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008995 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures
+  artifactKey: Guid(f2de2874db089ca4e89365b8f7c14976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures using Guid(f2de2874db089ca4e89365b8f7c14976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2506a6d3c4f7634bfb7b304845db8fe8') in 0.000561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029572 seconds.
+  path: Assets/RainMaker/Editor/RainMakerLogo.png
+  artifactKey: Guid(03b1d349318691d4a9d3c7e1803fd7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Editor/RainMakerLogo.png using Guid(03b1d349318691d4a9d3c7e1803fd7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d3abdfa05bb17ccb87c4e5e0acaaaa') in 0.014166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009457 seconds.
+  path: Assets/RainMaker/Readme.txt
+  artifactKey: Guid(c604563d03d2cd24da3a25d80881e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Readme.txt using Guid(c604563d03d2cd24da3a25d80881e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70921d4f18ce9b2b00316c3f164e4624') in 0.001395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014131 seconds.
+  path: Assets/RainMaker/Demo/DemoSceneSimple.unity
+  artifactKey: Guid(3da5a3025b5c2134c9112aa204e4dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/DemoSceneSimple.unity using Guid(3da5a3025b5c2134c9112aa204e4dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe4dfda230ca974359a6f2b1a27632b') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002823 seconds.
+  path: Assets/RainMaker/Prefab/RainCollision.cs
+  artifactKey: Guid(30b85ae89f8f0994a85aa62bf5a0e160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/RainCollision.cs using Guid(30b85ae89f8f0994a85aa62bf5a0e160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043c05e2690280a9e9bba1ed021ee72a') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001827 seconds.
+  path: Assets/ParticleShadersVol1/Editor
+  artifactKey: Guid(cf2bd84f7cab18c45853af66a063939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Editor using Guid(cf2bd84f7cab18c45853af66a063939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb1f9f9a63f0be88bae39d9f0c20f60') in 0.000398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003397 seconds.
+  path: Assets/RainMaker/Editor/RainMakerEditor.cs
+  artifactKey: Guid(a9eef4d60149b714f9d9089f071af0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Editor/RainMakerEditor.cs using Guid(a9eef4d60149b714f9d9089f071af0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87968aaf426d9a0d9bbe20a18a0fb36') in 0.000433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002466 seconds.
+  path: Assets/Objects/Materials/lambert1.mat
+  artifactKey: Guid(bf50f954d24a0cc4bbc1be2dcd77ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Materials/lambert1.mat using Guid(bf50f954d24a0cc4bbc1be2dcd77ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69845859ba2aceb2540170b6353a84a') in 0.006454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005362 seconds.
+  path: Assets/RainMaker/Prefab/RainScript2D.cs
+  artifactKey: Guid(340901a9d8d97bd43abdfe247e210193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/RainScript2D.cs using Guid(340901a9d8d97bd43abdfe247e210193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa924ef121c7870e2e7cbdd852eea79d') in 0.000454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002901 seconds.
+  path: Assets/RainMaker/Demo/DemoScene2DSettings.lighting
+  artifactKey: Guid(2eb654ad6e6962f478adca019450373a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/DemoScene2DSettings.lighting using Guid(2eb654ad6e6962f478adca019450373a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '019dd752e3304d748ec1affc3f7913f7') in 0.000923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002733 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961a9489929e5ae2005b8b19780de6ff') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009138 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956bf6baea4b638986c709a87047b7fa') in 0.000740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005656 seconds.
+  path: Assets/Sand textures pack/Sand 01/normal.tga
+  artifactKey: Guid(c7ae2d77608d4fb4380bfcbf944e3282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 01/normal.tga using Guid(c7ae2d77608d4fb4380bfcbf944e3282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acd3e7a3376ed4af7d8d205bfed63f6') in 0.018306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004910 seconds.
+  path: Assets/Sand textures pack/Sand 03/preview.jpg
+  artifactKey: Guid(db8f734d24bb14047a116ee10e629eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 03/preview.jpg using Guid(db8f734d24bb14047a116ee10e629eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f199406067b2317fe608c5b596c180d5') in 0.009004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003165 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e0872a344a2232916630376c77a2c5') in 0.001098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007857 seconds.
+  path: Assets/Sand textures pack/Sand 07/normal.tga
+  artifactKey: Guid(1ca8aa938472ee44881646574d844978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 07/normal.tga using Guid(1ca8aa938472ee44881646574d844978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f92d39e907c18d8c05c22f6bc89f1e5') in 0.011380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004090 seconds.
+  path: Assets/Objects/Materials/descarga.mat
+  artifactKey: Guid(e7e66870951be434ab62ab77e8ee5516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Materials/descarga.mat using Guid(e7e66870951be434ab62ab77e8ee5516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950218f019d1855c94330e05776375bb') in 0.006687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004222 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/Materials/sigMat.mat
+  artifactKey: Guid(e4cdce61705488e4584582cf28f9e302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/Materials/sigMat.mat using Guid(e4cdce61705488e4584582cf28f9e302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4176f2264a048c6c84be89292ce848fc') in 0.008365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002906 seconds.
+  path: Assets/Sand textures pack/Sand 09
+  artifactKey: Guid(7f5e2853e5d4fcc49937dfe3374cf359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 09 using Guid(7f5e2853e5d4fcc49937dfe3374cf359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90be79956b96211eee32863a354699c') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003577 seconds.
+  path: Assets/Objects/ankh.fbm/gema.jpg
+  artifactKey: Guid(7dcf60fc462bcc247a4365711e2edfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ankh.fbm/gema.jpg using Guid(7dcf60fc462bcc247a4365711e2edfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c400af0c86aa5ae059396a19175ffb27') in 0.011202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005982 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd
+  artifactKey: Guid(18214e9d6af6248559d501391856f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd using Guid(18214e9d6af6248559d501391856f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b673744ca844397062a712e62a83f2') in 0.009465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003905 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a91165ec28a70eac50fe253fa64738') in 0.000610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a762f227e90fdc549b2120ec351e0b') in 0.000469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002507 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d7668b4f5285a7ddd9d5cb5d3903f2') in 0.017895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008353 seconds.
+  path: Assets/Sand textures pack/Sand 06/Sand pattern 06.mat
+  artifactKey: Guid(983e0992e19cd6b488952f5565ef1372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 06/Sand pattern 06.mat using Guid(983e0992e19cd6b488952f5565ef1372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a2c9ce3498ad9cb536af898c594312') in 0.010411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003961 seconds.
+  path: Assets/ParticleShadersVol1/Textures/spark_01.tga
+  artifactKey: Guid(e22cac7af03588940921e765f90f2309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Textures/spark_01.tga using Guid(e22cac7af03588940921e765f90f2309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8972fa69c8397c90032bcc5275d4434d') in 0.009788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008230 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(e970569fec9b61741b2af33578821bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(e970569fec9b61741b2af33578821bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90cd4f8fbc1f09e4449b796953564c3') in 0.013760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002482 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle
+  artifactKey: Guid(f44e1bfc9a1087f45a2973d1028ab18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle using Guid(f44e1bfc9a1087f45a2973d1028ab18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75fc0cd6d7ce3ddf9a17f3eb3580ff0') in 0.000453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007300 seconds.
+  path: Assets/RainMaker/Demo/DemoSceneSimpleSettings.lighting
+  artifactKey: Guid(59754129b3297ce4aaf21f305b4f0d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/DemoSceneSimpleSettings.lighting using Guid(59754129b3297ce4aaf21f305b4f0d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '13eda6c93ad8c01226708b41c65f1e52') in 0.000964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003217 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd
+  artifactKey: Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd using Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464ff87434fa9435bae71936b3b03216') in 0.008194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005321 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Scripts
+  artifactKey: Guid(912fb66195b235e44b5f8aee42bd1e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Scripts using Guid(912fb66195b235e44b5f8aee42bd1e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e46d0ced99f1dfa3c4d8ab544a9232') in 0.000542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002719 seconds.
+  path: Assets/ParticleShadersVol1/Shaders/EMParticleVariables.cginc
+  artifactKey: Guid(20218c59136ee0640b5bed097913eb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Shaders/EMParticleVariables.cginc using Guid(20218c59136ee0640b5bed097913eb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ab15c90751eba16be5f1c2f2df8210') in 0.000744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003144 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a65d7b4625b028ab1c588f0861fba39') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002436 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/New Material.mat
+  artifactKey: Guid(e753c5a4a3bfc0343b7fa30a63ec752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/New Material.mat using Guid(e753c5a4a3bfc0343b7fa30a63ec752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b90b11b4dd9ca48ad7f0ec37f62d2e') in 0.005936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021245 seconds.
+  path: Assets/Objects/Shovel_Texture4K/Shovel_BaseColor.png
+  artifactKey: Guid(9c89d8c9236aa9e49b874c7ee5b642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Shovel_Texture4K/Shovel_BaseColor.png using Guid(9c89d8c9236aa9e49b874c7ee5b642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948f00ff2f4308eea75889c30ef1a954') in 0.013881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003581 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/LightBulb.mat
+  artifactKey: Guid(eed232b15b4e76a4abd99fbe89a8070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/LightBulb.mat using Guid(eed232b15b4e76a4abd99fbe89a8070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d4381c6b4af201e9abc1ca93d7b374') in 0.005567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004566 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/sample_scene/SkyboxProbe-0.exr
+  artifactKey: Guid(49cf27a1da7c9ed46b33b25bd52a1adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/sample_scene/SkyboxProbe-0.exr using Guid(49cf27a1da7c9ed46b33b25bd52a1adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf373fea99c71f935fddf384b00a862') in 0.015015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003257 seconds.
+  path: Assets/RainMaker/Prefab/RainShader.shader
+  artifactKey: Guid(0b828cb759e39534cab22fd7fa5d2982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/RainShader.shader using Guid(0b828cb759e39534cab22fd7fa5d2982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ec1a5adb1afdd1114a661a1443b15b') in 0.000585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004923 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/Materials
+  artifactKey: Guid(c73f54fedf9bc594385fcc0550c5cc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/Materials using Guid(c73f54fedf9bc594385fcc0550c5cc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3c9f0b5215ad16dd4d5b9736c0b97d') in 0.000299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007084 seconds.
+  path: Assets/Sand textures pack/Sand 02/diffuse.tga
+  artifactKey: Guid(249658be85c3a614fb5a8d8eb3cf0f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 02/diffuse.tga using Guid(249658be85c3a614fb5a8d8eb3cf0f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6858852c78f644db2816b199736fcccb') in 0.011097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007281 seconds.
+  path: Assets/Sand textures pack/Sand 02/normal.tga
+  artifactKey: Guid(427cf221b0e5f4b4da9d0821562ddc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 02/normal.tga using Guid(427cf221b0e5f4b4da9d0821562ddc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f53fa65c9b716ca8c2819886470fa2e') in 0.011264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003708 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1f88f9f9eb89b12430ba8004c62006') in 0.000561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002791 seconds.
+  path: Assets/Scripts/desetnterrar.cs
+  artifactKey: Guid(a1e73d0d5cee9054584afa704cd13d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/desetnterrar.cs using Guid(a1e73d0d5cee9054584afa704cd13d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfe9cfbeb30bb1dba088b3226ef9865') in 0.000335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004982 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/cigarette.obj
+  artifactKey: Guid(e166172caf60f784daf8f3edbf7f76f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Meshes/cigarette.obj using Guid(e166172caf60f784daf8f3edbf7f76f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b104d57ecc0421627a6174f07034006') in 0.014776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.005533 seconds.
+  path: Assets/RainMaker/Demo/PhysicsMaterialBall.physicsMaterial2D
+  artifactKey: Guid(eb3ebb2fab878bd4a81e1b1167623522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/PhysicsMaterialBall.physicsMaterial2D using Guid(eb3ebb2fab878bd4a81e1b1167623522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c24986b298adf8f56295e0aff1b8ba') in 0.000832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002873 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b883d3ed2c3438ac33a33331131d1a') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005375 seconds.
+  path: Assets/Scenes/Win.unity
+  artifactKey: Guid(f783541541474b84cb87a3c1d0dd9331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Win.unity using Guid(f783541541474b84cb87a3c1d0dd9331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c566265c85752cc39ca841902071fbcf') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006572 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(7e45eac24342d38479613691d4e0ec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(7e45eac24342d38479613691d4e0ec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65912d08954ce6cd6c6bd660800775e3') in 0.022877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010294 seconds.
+  path: Assets/Sand textures pack/Sand 06/preview.jpg
+  artifactKey: Guid(94de8f5eb8e9a0747860c70a4105c906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 06/preview.jpg using Guid(94de8f5eb8e9a0747860c70a4105c906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fa85c8d6904fa892abdcb7fb49110a') in 0.011804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007006 seconds.
+  path: Assets/Sand textures pack/Sand 03/Sand pattern 03.mat
+  artifactKey: Guid(065a3f32f15eafa4c8ade8c33a885e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 03/Sand pattern 03.mat using Guid(065a3f32f15eafa4c8ade8c33a885e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee861fad46c12a6e79bc188ccaefc78') in 0.014481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008681 seconds.
+  path: Assets/Sand textures pack/Sand 01/preview.jpg
+  artifactKey: Guid(c355b6f9819638f4c932556a463ed828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 01/preview.jpg using Guid(c355b6f9819638f4c932556a463ed828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b65ef9e7ecec64a6b85f5000c82d29a') in 0.008194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013563 seconds.
+  path: Assets/Objects/Shovel_Texture4K/Shovel_Metallic.png
+  artifactKey: Guid(c8dd89758ba6946448569f23afb99030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Shovel_Texture4K/Shovel_Metallic.png using Guid(c8dd89758ba6946448569f23afb99030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282027991c9ef4dbe505b8fd63be59db') in 0.012731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003599 seconds.
+  path: Assets/RainMaker/Demo/DemoSceneSimple3D.unity
+  artifactKey: Guid(1aac8e691c24ece4baeeb43c5ac0be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/DemoSceneSimple3D.unity using Guid(1aac8e691c24ece4baeeb43c5ac0be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaf0fa1818db18006a3ff0cdfdc8ac6') in 0.000495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002916 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fb3b35584e293e1af718b86d7fa852') in 0.001012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002544 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/logo.mat
+  artifactKey: Guid(1e3354439715b204fb34e8916653dafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/logo.mat using Guid(1e3354439715b204fb34e8916653dafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9833ecd1f79ccb6ad46073f708742e') in 0.006187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002734 seconds.
+  path: Assets/Sand textures pack
+  artifactKey: Guid(e5b01d2d999b2f841a0bb5dec806c822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack using Guid(e5b01d2d999b2f841a0bb5dec806c822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f794f686510f063cd40e934250145e') in 0.000360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003166 seconds.
+  path: Assets/RainMaker/Demo/FlashlightCookie.tif
+  artifactKey: Guid(7a04f0e602a8b1b40b2ef17916166e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/FlashlightCookie.tif using Guid(7a04f0e602a8b1b40b2ef17916166e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0a84aa9ac0e314f23e1eb2cda6fe01') in 0.010097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017151 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures/key.png
+  artifactKey: Guid(136c1d304b3640f459703fa354610bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures/key.png using Guid(136c1d304b3640f459703fa354610bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a26ef5467e676795d524059dc53e7d') in 0.015676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010162 seconds.
+  path: Assets/Objects/ankh.fbm/oro.jpg
+  artifactKey: Guid(e5ac23f271326764195b91077b0cc50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/ankh.fbm/oro.jpg using Guid(e5ac23f271326764195b91077b0cc50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddfb8ba5c4e7a0f9ed8dc73cd0998cf') in 0.010116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007256 seconds.
+  path: Assets/Sand textures pack/Sand 08/normal.tga
+  artifactKey: Guid(fe410fd1abc028549802745a6ba31814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 08/normal.tga using Guid(fe410fd1abc028549802745a6ba31814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5157a590e9fdd162260d2c4c5b1c091a') in 0.011444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015798 seconds.
+  path: Assets/ParticleShadersVol1/Textures/smoke_03.tga
+  artifactKey: Guid(0bb19c4f623e63d4dad3fcbea886eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Textures/smoke_03.tga using Guid(0bb19c4f623e63d4dad3fcbea886eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ac31ef783581fdf67894d50460453a') in 0.010778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003904 seconds.
+  path: Assets/Scripts/ClienteUDP.cs
+  artifactKey: Guid(39ad7f7c2adb8e54c9ea97249eede748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ClienteUDP.cs using Guid(39ad7f7c2adb8e54c9ea97249eede748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d063074dfd68c9d65bb67d78cbf4f3') in 0.000484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008703 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/CameraRig.cs
+  artifactKey: Guid(e122bb41ca1839843bd8ff7b7be67223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/CameraRig.cs using Guid(e122bb41ca1839843bd8ff7b7be67223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e976fefcdd468e6aa0fc50b6d89d3b3b') in 0.000448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006621 seconds.
+  path: Assets/Sand textures pack/Sand 01/diffuse.tga
+  artifactKey: Guid(290c02f76666bf444b5d58aaf8ee8151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 01/diffuse.tga using Guid(290c02f76666bf444b5d58aaf8ee8151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7922e0d9a1e7a7737795b8561967af22') in 0.010203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002458 seconds.
+  path: Assets/Sand textures pack/Sand 07
+  artifactKey: Guid(ca1a1cb6b7e2d2242a1403aee28c9c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 07 using Guid(ca1a1cb6b7e2d2242a1403aee28c9c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a66e9ae1bc346220de294a14d91641') in 0.000383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.019679 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp
+  artifactKey: Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp using Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50db46d2dec4de43cf8df5deab304eb3') in 0.010699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006417 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd
+  artifactKey: Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd using Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e07849ac3087392a625c764960f22c') in 0.009314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006188 seconds.
+  path: Assets/Sand textures pack/Sand 05/normal.tga
+  artifactKey: Guid(0dd806b1d20ab4a43bf0aa049663105f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 05/normal.tga using Guid(0dd806b1d20ab4a43bf0aa049663105f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4222f8c6d0b2e1839d56f82af2fd3c9a') in 0.009430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004596 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(badb8f97960a9fe448e0ef4de8c71f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(badb8f97960a9fe448e0ef4de8c71f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e46802202b2f6effa456255b2b8e85') in 0.000508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003043 seconds.
+  path: Assets/Scripts/Cliente.cs
+  artifactKey: Guid(05b9e7b29d51b9e4798520363d993c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cliente.cs using Guid(05b9e7b29d51b9e4798520363d993c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a49ed44fa722584ff8cc1f56ed86ca9') in 0.000359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012109 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7eab248413d5372ca0e38f8fa86db8') in 0.000357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003381 seconds.
+  path: Assets/Sand textures pack/Sand 08/preview.jpg
+  artifactKey: Guid(fdef338877fb05e41ab50eb9c5a9835d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 08/preview.jpg using Guid(fdef338877fb05e41ab50eb9c5a9835d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca44700209ea656c123a0f94421ef9f') in 0.008873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003638 seconds.
+  path: Assets/Scenes/Lose.unity
+  artifactKey: Guid(00f37cbc1b58b864ebcf41d49b65bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lose.unity using Guid(00f37cbc1b58b864ebcf41d49b65bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601d7ff85b8260b4d47938956e75abc7') in 0.000488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004331 seconds.
+  path: Assets/Objects/Shovel_Texture4K/Materials/Shovel_BaseColor.mat
+  artifactKey: Guid(bfaa6b195de74ef418044c822ead0488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Shovel_Texture4K/Materials/Shovel_BaseColor.mat using Guid(bfaa6b195de74ef418044c822ead0488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4983ee1ca2379af3a418499932b7771d') in 0.007973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002515 seconds.
+  path: Assets/Objects/Shovel_Texture4K/Materials
+  artifactKey: Guid(9e2a030a5a91c124d8d70bde942eb373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Shovel_Texture4K/Materials using Guid(9e2a030a5a91c124d8d70bde942eb373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7eeab91faf124ba856ddb704d590fb') in 0.000382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002550 seconds.
+  path: Assets/RainMaker/Demo/PhysicsMaterialGround.physicsMaterial2D
+  artifactKey: Guid(d13f8de85fa427b4c986913f591d679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/PhysicsMaterialGround.physicsMaterial2D using Guid(d13f8de85fa427b4c986913f591d679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e439ed0abbde03f74185053f676015a') in 0.000737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002872 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/LightBulb.shader
+  artifactKey: Guid(81c29914debfced4fb112aeef7440ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/LightBulb.shader using Guid(81c29914debfced4fb112aeef7440ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73e3ce9c471bd2bac2c89f25115ebfd') in 0.000466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003044 seconds.
+  path: Assets/Objects/Materials/gema.mat
+  artifactKey: Guid(9d670101481378c4a9675e804e78f765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Materials/gema.mat using Guid(9d670101481378c4a9675e804e78f765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2b622406776ac9a8c84602c4f74c7c') in 0.006690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003954 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/EMUI.cs
+  artifactKey: Guid(9a7fed71ade8a6c49b855a3e99955165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/EMUI.cs using Guid(9a7fed71ade8a6c49b855a3e99955165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06330bb2367becc4dbce50145bf2e868') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003120 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures/terrain_01_n.png
+  artifactKey: Guid(fae71db0b0aa94f46805b0a794831aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures/terrain_01_n.png using Guid(fae71db0b0aa94f46805b0a794831aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41eda4047caf9ac16bd29b06a92da3f6') in 0.009021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003534 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_lit_emissive.mat
+  artifactKey: Guid(40278e255507ba44a9347e2b23a37fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_lit_emissive.mat using Guid(40278e255507ba44a9347e2b23a37fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c929330b39e63238e028ebfdf305349e') in 0.357776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003806 seconds.
+  path: Assets/RainMaker/Demo/DemoScene.unity
+  artifactKey: Guid(bcedf958ea14e884e889a68aaacbc78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/DemoScene.unity using Guid(bcedf958ea14e884e889a68aaacbc78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc728f2669778cca9e3441f889529a9') in 0.000482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009667 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures/cigarette_e.png
+  artifactKey: Guid(15652d053dbd088438631cf576ba90dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures/cigarette_e.png using Guid(15652d053dbd088438631cf576ba90dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03f610ec3b675c0f826613a88b05fc5') in 0.008196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003453 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_02_lit.mat
+  artifactKey: Guid(754d678ee533c9642b7b6667ad3d5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_02_lit.mat using Guid(754d678ee533c9642b7b6667ad3d5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de983f35e00a194db76ed20c1961f87') in 0.006998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006144 seconds.
+  path: Assets/Sand textures pack/Sand 03/normal.tga
+  artifactKey: Guid(6de787b941a84ab47aa819718eab2994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 03/normal.tga using Guid(6de787b941a84ab47aa819718eab2994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e74334bc4902bc9aae928ca034eecf') in 0.009810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005854 seconds.
+  path: Assets/RainMaker/Demo/New Terrain.asset
+  artifactKey: Guid(ad080ee1067846b4fae6efc824b8cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/New Terrain.asset using Guid(ad080ee1067846b4fae6efc824b8cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cb7f9eac81b854f2e1f1a568ca5eec') in 0.065498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002017 seconds.
+  path: Assets/Sand textures pack/Sand 01
+  artifactKey: Guid(b483ed908e196764f8598a0c68477bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 01 using Guid(b483ed908e196764f8598a0c68477bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8216fe887a874e9390438aa3395d362b') in 0.000392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002873 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb6d1bb3844c1665e2be9db4f0b1ddf') in 0.000528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003112 seconds.
+  path: Assets/RainMaker/Demo/DemoSceneSettings.lighting
+  artifactKey: Guid(aa24dfafa25e49641847864618f53217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/DemoSceneSettings.lighting using Guid(aa24dfafa25e49641847864618f53217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'eab9c2c8136b1d8bfe8b7306ddea00b6') in 0.000851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003368 seconds.
+  path: Assets/Sand textures pack/Sand 02/preview.jpg
+  artifactKey: Guid(d718b052bebcf3f459b8b3643a53b25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 02/preview.jpg using Guid(d718b052bebcf3f459b8b3643a53b25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725ab51e8f75520eab3f81e93315728a') in 0.008430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003612 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/skybox.mat
+  artifactKey: Guid(2254a527e8631324d9ee015e34b0cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/skybox.mat using Guid(2254a527e8631324d9ee015e34b0cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52843d6ed0e4622467789907f41f005c') in 0.007798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014316 seconds.
+  path: Assets/RainMaker/Demo/DemoScript2D.cs
+  artifactKey: Guid(07098deef08d9114d86d991233aca5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/DemoScript2D.cs using Guid(07098deef08d9114d86d991233aca5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a688e637fe0be9ad415f2ed77f543e') in 0.000395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011432 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f603c20fc83149d951696e0b5ff78e') in 0.000877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010190 seconds.
+  path: Assets/Sand textures pack/Sand 03/diffuse.tga
+  artifactKey: Guid(573734e01a86b9d40b6c8dc8d74a1932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 03/diffuse.tga using Guid(573734e01a86b9d40b6c8dc8d74a1932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c29e4fe8c3368731930d2c89b51930') in 0.009712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002729 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials
+  artifactKey: Guid(7ec9c75a8787b53438efcae241fd671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials using Guid(7ec9c75a8787b53438efcae241fd671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8113a59e67692305f7a887502d40c836') in 0.000445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009535 seconds.
+  path: Assets/RainMaker/Prefab/BaseRainScript.cs
+  artifactKey: Guid(5fadb2792073be54387ad764e856d440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/BaseRainScript.cs using Guid(5fadb2792073be54387ad764e856d440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250f4deeb7f4af2c35227f932b24b65b') in 0.000535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006929 seconds.
+  path: Assets/Sand textures pack/Sand 09/diffuse.tga
+  artifactKey: Guid(a4ceed7e55067fa4f8f7b96f3f8abc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 09/diffuse.tga using Guid(a4ceed7e55067fa4f8f7b96f3f8abc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580db6fcfef1bc89b9f599c0a5fcac2f') in 0.010760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003511 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/BillboardTextures
+  artifactKey: Guid(cba4562cece794697b418ce8e7c04b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/BillboardTextures using Guid(cba4562cece794697b418ce8e7c04b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021a50ccc20f034379a322d689cd9bbb') in 0.000542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006211 seconds.
+  path: Assets/Sand textures pack/Sand 04/normal.tga
+  artifactKey: Guid(5b605e7f683caf04cbc4b1b74299d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 04/normal.tga using Guid(5b605e7f683caf04cbc4b1b74299d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555737fc01f2bf5c91032039b2605c2b') in 0.011129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003468 seconds.
+  path: Assets/Sand textures pack/Sand 02/Sand pattern 02.mat
+  artifactKey: Guid(621a6429119a1554e8384aa7b111e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 02/Sand pattern 02.mat using Guid(621a6429119a1554e8384aa7b111e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3112b0efa7db00e99606779e54537d') in 0.009100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003822 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65a4ce8400ff49749468270fd34ede3') in 0.001106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007988 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1284b6d9112892823920c4a518038a02') in 0.000360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006384 seconds.
+  path: Assets/Sand textures pack/Sand 08/diffuse.tga
+  artifactKey: Guid(02b230a6dbc126f49ac17778565ed96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 08/diffuse.tga using Guid(02b230a6dbc126f49ac17778565ed96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd57a1be8393e427e5cbd30683163bdc') in 0.010703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009157 seconds.
+  path: Assets/RainMaker/Demo
+  artifactKey: Guid(9d444da0a0d97074c813ba208167e81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo using Guid(9d444da0a0d97074c813ba208167e81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de345bf8e5a2154bb9d26f686ebcac55') in 0.000713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005060 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_lit_alpha_erosion.mat
+  artifactKey: Guid(35ef207a13cc9414597381b0311d8f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_lit_alpha_erosion.mat using Guid(35ef207a13cc9414597381b0311d8f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fd279f65a668a10ada65708947b43c') in 0.158941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017611 seconds.
+  path: Assets/Sand textures pack/Sand 06/normal.tga
+  artifactKey: Guid(b8a33275f31850a48b5abd4c13a44cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 06/normal.tga using Guid(b8a33275f31850a48b5abd4c13a44cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d44384acf3caf63bfac6ba9319caf67') in 0.011241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005273 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4b902abfd67ae1af843b8ca871275a') in 0.000684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004896 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056cf6914e695e5184ae907488c442f7') in 0.000379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002918 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4948e3d3b156c358d774882348c13a') in 0.000837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002636 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896ca77e6b6043ff954e58dbd0df98fa') in 0.009701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.002948 seconds.
+  path: Assets/ParticleShadersVol1/Shaders/EMParticleFunctions.cginc
+  artifactKey: Guid(2fd1eca8c84d31041bd96bd96645f3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Shaders/EMParticleFunctions.cginc using Guid(2fd1eca8c84d31041bd96bd96645f3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc370f0025f6b0723845f0c64ffaaf91') in 0.000834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014274 seconds.
+  path: Assets/ParticleShadersVol1/Textures/smoke_01.tga
+  artifactKey: Guid(14b96c70d14f0b6468aa4948f364da8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Textures/smoke_01.tga using Guid(14b96c70d14f0b6468aa4948f364da8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcab00718782121a7772d9469945043') in 0.008759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003241 seconds.
+  path: Assets/Sand textures pack/Sand 09/Sand pattern 09.mat
+  artifactKey: Guid(82f5feab8d85b3d4bb877287d1f8fb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 09/Sand pattern 09.mat using Guid(82f5feab8d85b3d4bb877287d1f8fb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1374d971763a485705ac9b9ccd9ec1d') in 0.007858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006359 seconds.
+  path: Assets/ParticleShadersVol1/sample_sceneSettings.lighting
+  artifactKey: Guid(1cea4abbe67d60043bb26f7c23c38a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/sample_sceneSettings.lighting using Guid(1cea4abbe67d60043bb26f7c23c38a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'c888fa8bc75992149203f1cc24be0d9b') in 0.001175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002645 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Ground.mat
+  artifactKey: Guid(012f815e050685945abb6dc39bdfe6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Ground.mat using Guid(012f815e050685945abb6dc39bdfe6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0568b42e19f009685c2803f10ba16b2') in 0.180096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004959 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd
+  artifactKey: Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd using Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee224dba18f76dcccea7cb6101b45441') in 0.008875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005959 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures/rock_01_n.png
+  artifactKey: Guid(819fafa1cd3e96445ac6db5405dfcc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures/rock_01_n.png using Guid(819fafa1cd3e96445ac6db5405dfcc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0284b42f563ec060d1d24c9cfab4e890') in 0.011134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002815 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures
+  artifactKey: Guid(4f9d71771b07cb6438e0d35b038b43a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/SurfaceTextures using Guid(4f9d71771b07cb6438e0d35b038b43a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437e652fb27863016233e9831b03f00f') in 0.000974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003314 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaacf1233f64829e7e78d3457279bcf') in 0.000741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003175 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb17b39ab37ff5c4a0c347358e9d790f') in 0.000862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005440 seconds.
+  path: Assets/Sand textures pack/Sand 02
+  artifactKey: Guid(99677c422f3f290468872be93aa54a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 02 using Guid(99677c422f3f290468872be93aa54a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0518f1e699be130551584e5ef7f7b9') in 0.000519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015884 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/dust_01_additive_erosion.mat
+  artifactKey: Guid(c7d3bc5879f0a75428fcdba319bd59db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/dust_01_additive_erosion.mat using Guid(c7d3bc5879f0a75428fcdba319bd59db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625f8abaf428a21728f9ae825fc1fd9f') in 0.008731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015230 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures/rock_01_d.tif
+  artifactKey: Guid(a12d3e86afd30e241b786df84b0f42af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures/rock_01_d.tif using Guid(a12d3e86afd30e241b786df84b0f42af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a79583aeaf1d715b3ef299f6d06743') in 0.009791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003433 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_01_alpha_erosion.mat
+  artifactKey: Guid(7bbc682d5c0d3e145855fe9c8217b29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_01_alpha_erosion.mat using Guid(7bbc682d5c0d3e145855fe9c8217b29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eddc711fc00b75f704fc6f32d2a41a5') in 0.142878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004649 seconds.
+  path: Assets/RainMaker/Demo/Background.prefab
+  artifactKey: Guid(a4bf6bd342cbc4e4cab59a122194d93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Background.prefab using Guid(a4bf6bd342cbc4e4cab59a122194d93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2cc4569eb1bcabd396213dac8cd9c5') in 0.010866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002998 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets
+  artifactKey: Guid(7e6f84bf81c8d4de280f1133cff7e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets using Guid(7e6f84bf81c8d4de280f1133cff7e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54b0b627f5a4ff72b293c7ca0021a80') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002904 seconds.
+  path: Assets/Sand textures pack/Sand 08/Sand pattern 08.mat
+  artifactKey: Guid(5932f2760d420ff4da6d82bd54fe830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 08/Sand pattern 08.mat using Guid(5932f2760d420ff4da6d82bd54fe830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d7f15a98dedffad2a56fe72db1b563') in 0.006659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004201 seconds.
+  path: Assets/ParticleShadersVol1/Shaders/EM_Particles_Lit_MultiLight.shader
+  artifactKey: Guid(0be24640c9fd48746bc9f4c99d325f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Shaders/EM_Particles_Lit_MultiLight.shader using Guid(0be24640c9fd48746bc9f4c99d325f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb3d8b9ef839a9c52410bf3c922ad7b') in 0.000572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081725 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd
+  artifactKey: Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd using Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2878e92f6cbe5c12316f8cae346a7f1') in 0.013099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.028440 seconds.
+  path: Assets/ParticleShadersVol1/Shaders/EM_Particles_Lit_Fallback.shader
+  artifactKey: Guid(9573ca50826e62f4c999af885e1c9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Shaders/EM_Particles_Lit_Fallback.shader using Guid(9573ca50826e62f4c999af885e1c9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00899b9e95620c0e1f4e5444d07c9aa') in 0.000864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004962 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Animations/SpotLights.anim
+  artifactKey: Guid(74ecd9a753e512747a34aa99ab9a884c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Animations/SpotLights.anim using Guid(74ecd9a753e512747a34aa99ab9a884c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a81330dff121c06ef76d07057e5a803') in 0.002965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001977 seconds.
+  path: Assets/RainMaker/Demo/Standard Assets/Environment
+  artifactKey: Guid(6ca8c4e270f964e0da9f731d7d34b123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/Standard Assets/Environment using Guid(6ca8c4e270f964e0da9f731d7d34b123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edbc409848b96af81615a5d4c64d2d9') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002882 seconds.
+  path: Assets/RainMaker/Demo/DemoSceneSimple3DSettings.lighting
+  artifactKey: Guid(aeb91c70b794d024581a7d808b5d3af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Demo/DemoSceneSimple3DSettings.lighting using Guid(aeb91c70b794d024581a7d808b5d3af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '7eed6ed5c6a6373d6f354623dd98ddfa') in 0.000818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001808 seconds.
+  path: Assets/ParticleShadersVol1/Textures
+  artifactKey: Guid(b4c0313969942ff46bb5b313554625bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Textures using Guid(b4c0313969942ff46bb5b313554625bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7036319274893e86a36be39a79bee576') in 0.000287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005975 seconds.
+  path: Assets/Sand textures pack/Sand 06/diffuse.tga
+  artifactKey: Guid(ad000eaa5a11e6541a69dcd7ffa18a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 06/diffuse.tga using Guid(ad000eaa5a11e6541a69dcd7ffa18a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790144065fe019094dc6333cb1ba7de5') in 0.010567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003548 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_lit_DF.mat
+  artifactKey: Guid(086d338b01c64a8449a1719f8bc81008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Materials/Particle/smoke_03_lit_DF.mat using Guid(086d338b01c64a8449a1719f8bc81008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe084546f855b0b1504759d4c290395') in 0.161030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005821 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Textures/reflector.png
+  artifactKey: Guid(59e89a4cb505f2a4c85dd84cad83d397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Textures/reflector.png using Guid(59e89a4cb505f2a4c85dd84cad83d397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6de03025db94184fd0d6354bedd11b3') in 0.013286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003439 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ea1972c79e2717dc61467c8ce2277e') in 0.014826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.008341 seconds.
+  path: Assets/Objects/Shovel_Texture4K/Materials/Shovel_Metallic.mat
+  artifactKey: Guid(67e16a128457d06409122d1b8c8d3640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Shovel_Texture4K/Materials/Shovel_Metallic.mat using Guid(67e16a128457d06409122d1b8c8d3640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10267f53ab00992d82465818f41bf6b3') in 0.007394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002658 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb8c8d526b56b02a177794fb5aaffbd') in 0.000424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014039 seconds.
+  path: Assets/Sand textures pack/Sand 01/Sand pattern 01.mat
+  artifactKey: Guid(aefa62ee04789e745b9c2b7d23a21e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 01/Sand pattern 01.mat using Guid(aefa62ee04789e745b9c2b7d23a21e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1feba2a3cda74989e2cf026b46dec8f') in 0.007451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007839 seconds.
+  path: Assets/Sand textures pack/Sand 07/diffuse.tga
+  artifactKey: Guid(59340c34796aba74f821afc78115b91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 07/diffuse.tga using Guid(59340c34796aba74f821afc78115b91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28df0d54893c1201fad46bd609936688') in 0.009160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004404 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77d945af6f2a2ba96621f031f3cbc4d') in 0.000879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003507 seconds.
+  path: Assets/Objects/canvas/howto.prefab
+  artifactKey: Guid(774ca4f0a30ab2645ad394be61a6a4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/canvas/howto.prefab using Guid(774ca4f0a30ab2645ad394be61a6a4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d85a90659f5d42783cdc3b5e926afd') in 0.027795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.038003 seconds.
+  path: Assets/Objects/Shovel_Texture4K/Shovel_Normal.png
+  artifactKey: Guid(ad1cca4babfc85145abb7762af9f00c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Shovel_Texture4K/Shovel_Normal.png using Guid(ad1cca4babfc85145abb7762af9f00c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac6a97bbcde0abbefdadccb432cccd6') in 0.013134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011208 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Animations/ui_info_bar_fadeout.anim
+  artifactKey: Guid(c618fc715caa9804fa2eb25707e99df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Animations/ui_info_bar_fadeout.anim using Guid(c618fc715caa9804fa2eb25707e99df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1ed95c7ee56b41c26e059f8c7b2b70') in 0.001844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001854 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c36a6349224b0ebebc1e51428e6fea') in 0.000348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002880 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/LightRig.cs
+  artifactKey: Guid(82eb851ab3723ce48bc6770ed7c4d879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/Scripts/LightRig.cs using Guid(82eb851ab3723ce48bc6770ed7c4d879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0d9834091f1e1742ca944b1d9f20f9') in 0.000336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003776 seconds.
+  path: Assets/ParticleShadersVol1/SampleSceneAssets/sample_scene/ReflectionProbe-0.exr
+  artifactKey: Guid(c06e5567746d1c94bb7184e87bb8c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/SampleSceneAssets/sample_scene/ReflectionProbe-0.exr using Guid(c06e5567746d1c94bb7184e87bb8c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7972921e569c7b7c7d5a9f449457ce85') in 0.006960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004635 seconds.
+  path: Assets/Sand textures pack/Sand 07/preview.jpg
+  artifactKey: Guid(5415f499916bc6343be05490a1cf31de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sand textures pack/Sand 07/preview.jpg using Guid(5415f499916bc6343be05490a1cf31de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb05e4b162919f06b8658f01a646b3c') in 0.009631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003925 seconds.
+  path: Assets/ParticleShadersVol1/Shaders/EM_Particles_Unlit.shader
+  artifactKey: Guid(498c6e9bc094c144fb198295f8809624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleShadersVol1/Shaders/EM_Particles_Unlit.shader using Guid(498c6e9bc094c144fb198295f8809624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d2f317d91873169efb4700b2fde8aa') in 0.000681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003428 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8756f7c291147a75e95d0f4a0d9e7e56') in 0.013757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
