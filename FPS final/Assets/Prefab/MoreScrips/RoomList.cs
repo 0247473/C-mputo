@@ -19,6 +19,8 @@ public class RoomList : MonoBehaviourPunCallbacks
     public GameObject putPass; 
     private List<RoomInfo> cachedRoomList = new List<RoomInfo>();
 
+    public int num_lobbys= 0;
+
     public void ChangeRoomToCreateName(string _roomname){
         roomManager.roomNameToJoin = _roomname;
     }
@@ -105,7 +107,6 @@ void UpdateUI()
                 roomItem.GetComponent<RoomItemButton>().RoomName = room.Name;
             }
         }
-       
 
         // Asignar valores a los textos de los prefabs
         
@@ -127,7 +128,9 @@ void UpdateUI()
         //         Debug.LogError("putPass is not assigned.");
         //     }
         // }
+        num_lobbys+=1;
     }
+    Debug.Log($"Hay {num_lobbys} lobbys creados");
 }
 
 

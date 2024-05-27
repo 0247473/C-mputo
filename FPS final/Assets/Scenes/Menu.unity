@@ -795,6 +795,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153202332}
   m_CullTransparentMesh: 1
+--- !u!1 &157642187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 157642188}
+  - component: {fileID: 157642190}
+  - component: {fileID: 157642189}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &157642188
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157642187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.78376424, y: 0.7, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1872911335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 242, y: -56}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &157642189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157642187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4a166facc46d7a741be7599d30e6f180, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &157642190
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157642187}
+  m_CullTransparentMesh: 1
 --- !u!1 &161080582
 GameObject:
   m_ObjectHideFlags: 0
@@ -2825,7 +2900,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39ad7f7c2adb8e54c9ea97249eede748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conectedUDP: 1
   txt1: {fileID: 1018403960}
   txt2: {fileID: 342586885}
   txt3: {fileID: 1937791319}
@@ -6655,14 +6729,44 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100463508226596510, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 52.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100463508226596510, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -147.1
+      objectReference: {fileID: 0}
     - target: {fileID: 176260331624515339, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
       propertyPath: m_Name
       value: howto CHANGE
       objectReference: {fileID: 0}
     - target: {fileID: 176260331624515339, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1435880696942777745, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_Text
+      value: The space key allows you to jump
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689110237906274546, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 37.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689110237906274546, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -164.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854173277360366799, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_Text
+      value: 'Left click to shoot
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106678204887927318, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6b18ba9c34af8914884266641c24a104, type: 3}
     - target: {fileID: 2325152371797216996, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -6743,10 +6847,62 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2433871865238658811, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433871865238658811, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818676212869999761, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_Text
+      value: If you leave a lobby restart the game
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933254462846521478, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 59.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933254462846521478, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -90.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4355456276472715602, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.425
+      objectReference: {fileID: 0}
+    - target: {fileID: 4355456276472715602, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -234
+      objectReference: {fileID: 0}
+    - target: {fileID: 4355456276472715602, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439078056358327418, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_Text
+      value: The mouse scroll wheel allows
+      objectReference: {fileID: 0}
     - target: {fileID: 5109117476441554879, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 31
       objectReference: {fileID: 0}
+    - target: {fileID: 5268813192469078046, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 62.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268813192469078046, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -42.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033244859247962294, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_Text
+      value: ' you to change weapons'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052111998453086834, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c83a23d36a786d64e83056a734adaeb5, type: 3}
     - target: {fileID: 8126799625785315628, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
       propertyPath: m_text
       value: 'Back
@@ -6808,12 +6964,21 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7025409196402335650, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
-    m_AddedGameObjects: []
+    - {fileID: 2556906097542578509, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2325152371797216996, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 157642188}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 176260331624515339, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 617854712}
   m_SourcePrefab: {fileID: 100100000, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+--- !u!224 &1872911335 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2325152371797216996, guid: 774ca4f0a30ab2645ad394be61a6a4aa, type: 3}
+  m_PrefabInstance: {fileID: 1872911334}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1888859262
 GameObject:
   m_ObjectHideFlags: 0

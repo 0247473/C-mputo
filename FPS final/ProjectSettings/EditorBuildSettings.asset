@@ -10,5 +10,11 @@ EditorBuildSettings:
     guid: badb8f97960a9fe448e0ef4de8c71f01
   - enabled: 1
     path: Assets/Scenes/FPSGame.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: 17fd82671e00e1648b40baae91957d5c
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: f783541541474b84cb87a3c1d0dd9331
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: 00f37cbc1b58b864ebcf41d49b65bc69
   m_configObjects: {}

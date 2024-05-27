@@ -11,7 +11,8 @@ using System.Net.Sockets;
 using System.Text;
 public class Cliente : MonoBehaviour
 {
-    const int PORT = 5555;
+    const int PORT1 = 5555;
+    const int PORT2 = 5556;
     const int MAX_BUFFER = 1024;
     const int TIMEOUT = 5;
 
@@ -37,10 +38,14 @@ public class Cliente : MonoBehaviour
     public bool conected=true;
     private GameObject sameObjectName;
     private bool p=false;
-    private string serverIpAddress = "10.7.26.28";
+    private string serverIpAddress = "10.7.7.164";
     private float tiempoInicio;
     private string nameuser="SinUsuario";
     public string FianlUser;
+
+    string clave= "DesBunduquia";
+
+    private bool isConnectedToFirstPort = true;
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
@@ -49,7 +54,6 @@ public class Cliente : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject); // Asegúrate de que este objeto no se destruya al cambiar de escena
         tiempoInicio = Time.time;
-
 
     }
     public GameObject inGame;
@@ -62,7 +66,6 @@ public class Cliente : MonoBehaviour
         {
             yo.SetActive(false);
         }
-        
         float tiempoTranscurrido = Time.time - tiempoInicio;
         if (tiempoTranscurrido >= 5f)
         {
@@ -126,7 +129,6 @@ public class Cliente : MonoBehaviour
         else
         {
             error[1].SetActive(false);
-           
         }
     }
 
@@ -157,9 +159,9 @@ public class Cliente : MonoBehaviour
         
         }else
         {
-            //debug.Log("Comprobando SignIn inicio");
+            Debug.Log("Comprobando SignIn inicio");
             Availavility();
-            //debug.Log("Comprobando SignIn fin");
+            Debug.Log("Comprobando SignIn fin");
             RegUser.text="";
             RegPass.text="";
             RegPassVal.text="";
@@ -188,6 +190,17 @@ public class Cliente : MonoBehaviour
         LgIn.SetActive(true);
     }
 
+    void XorCifrado(char[] palabra, char[] clave)
+    {
+        int palabraLen = palabra.Length;
+        int claveLen = clave.Length;
+
+        for (int i = 0; i < palabraLen; i++)
+        {
+            palabra[i] ^= clave[i % claveLen];
+        }
+    }
+
     public string gt;
     public void LogIn()
     {
@@ -200,7 +213,7 @@ public class Cliente : MonoBehaviour
             FianlUser = User.text;
             error[0].SetActive(false);
             string instruction= $"LogIn {User.text} {Pass.text}";
-            //debug.Log($"Mando al server: {instruction}");
+            Debug.Log($"Mando al server: {instruction}");
             int ans=SendRequestToServer(serverIpAddress,instruction);
             checkAnswerServer(ans);
             if(login){
@@ -212,7 +225,7 @@ public class Cliente : MonoBehaviour
                 nameuser=User.text;
                 gt = User.text;
                 
-                //debug.Log($"El usuario es: {nameuser}");
+                Debug.Log($"El usuario es: {nameuser}");
             }
             else{
                 auth.SetActive(true);
@@ -242,7 +255,7 @@ public class Cliente : MonoBehaviour
             error[3].SetActive(false);
             string instruction="SignIn " + inputUsername + " " + inputPassword;
             int ans=SendRequestToServer(serverIpAddress,instruction);
-            //debug.Log($"Mande al server fin {ans}");
+            Debug.Log($"Mande al server fin {ans}");
             checkAnswerServer(ans);
         }else
         {
@@ -259,16 +272,19 @@ public class Cliente : MonoBehaviour
     {
         TcpClient client = null;
         try
-        {
+        {   /*
             client = new TcpClient();
             client.SendTimeout = TIMEOUT * 1000;
             client.ReceiveTimeout = TIMEOUT * 1000;
-            IPEndPoint remoteEP = new IPEndPoint(IPAddress.Parse(ipAddress), PORT);
+            IPEndPoint remoteEP = new IPEndPoint(IPAddress.Parse(ipAddress), PORT1);
             client.Connect(remoteEP);
+            */
+            client = new TcpClient(ipAddress, isConnectedToFirstPort ? PORT1 : PORT2);
+            Debug.Log("Conectado al puerto: " + (isConnectedToFirstPort ? PORT1 : PORT2));
             if (client.Connected)
             {
                 conected=true;
-                //debug.Log("Conectado al server");
+                Debug.Log("Conectado al server");
             }
             else
             {
@@ -278,7 +294,9 @@ public class Cliente : MonoBehaviour
         catch (Exception ex)
         {
             conected=false;
-            Debug.Log($"Error al conectar con el servidor: {ex.Message}");
+            Debug.LogError("Error al conectar: " + ex.Message);
+            isConnectedToFirstPort = !isConnectedToFirstPort; // Intenta conectar al otro puerto
+            TryConnectToServer(ipAddress);
         }
         finally
         {
@@ -289,41 +307,64 @@ public class Cliente : MonoBehaviour
         }
     }
 
+    string ExtractFirstValue(string input)
+    {
+        // Remove the curly braces and single quotes
+        input = input.Trim(new char[] { '{', '}', '\'' });
+        
+        // Split the string by the colon
+        string[] parts = input.Split(':');
+        
+        // Return the first part, which is the desired value
+        return parts[0];
+    }
+
     public int SendRequestToServer(string ip, string request)
     {
         TcpClient client = null;
         NetworkStream stream = null;
         try
         {
+            /*
             client = new TcpClient();
             client.SendTimeout = TIMEOUT * 1000;
             client.ReceiveTimeout = TIMEOUT * 1000;
             IPAddress ipAddress = IPAddress.Parse(ip);
             IPEndPoint remoteEP = new IPEndPoint(ipAddress, PORT);
             client.Connect(remoteEP);
+            */
+            client = new TcpClient(ip, isConnectedToFirstPort ? PORT1 : PORT2);
+            Debug.Log("Conectado al puerto: " + (isConnectedToFirstPort ? PORT1 : PORT2));
+            Debug.Log($"La peticion del cliente es: {request}");
             if (client.Connected)
             {
                 stream = client.GetStream();
-                byte[] buffer = System.Text.Encoding.ASCII.GetBytes(request);
-                //debug.Log($"Mande al server: {request}");
-                stream.Write(buffer, 0, buffer.Length);
+                char[] buffer = request.ToCharArray();
+                char[] claveArray = clave.ToCharArray();
+
+                XorCifrado(buffer, claveArray);
+                string resultado = "";
+                foreach (char c in buffer)
+                {
+                    resultado += string.Format("{0:X2}", (byte)c);
+                }
+                Debug.Log($"Mande al server: {resultado}");
+                byte[] bufferEn = System.Text.Encoding.ASCII.GetBytes(resultado);
+                stream.Write(bufferEn, 0, bufferEn.Length);
                 byte[] responseBuffer = new byte[MAX_BUFFER];
                 int bytesRead = stream.Read(responseBuffer, 0, responseBuffer.Length);
-                string response = System.Text.Encoding.ASCII.GetString(responseBuffer, 0, bytesRead);
-                //debug.Log($"Obtuve de server: {response}");
+                string responseHex = Encoding.ASCII.GetString(responseBuffer, 0, bytesRead);
+                Debug.Log($"Obtuve de server: {responseHex}");
+                string resultEn = ExtractFirstValue(responseHex);
+                char[] responseC = ConvertHexStringToCharArray(resultEn);
+                Debug.Log($"Respuesta convertida Caracter: {new string(responseC)}");
+                XorCifrado(responseC,claveArray);
+                string response = $"{new string(responseC)}";
+                Debug.Log($"Respuesta convertida String: {response}");
                 int result;
-                if (!string.IsNullOrEmpty(response))
+                if (int.TryParse(response, out result))
                 {
-                    int startIndex = response.IndexOf('\'') + 1;
-                    int endIndex = response.IndexOf('\'', startIndex);
-                    if (endIndex > startIndex)
-                    {
-                        string numberString = response.Substring(startIndex, endIndex - startIndex);
-                        if (int.TryParse(numberString, out result))
-                        {
-                            return result;
-                        }
-                    }
+                    return result;
                 }
                 return 0;
             }
@@ -335,7 +376,9 @@ public class Cliente : MonoBehaviour
         catch (Exception ex)
         {
             Debug.Log($"Error: {ex.Message}");
-            return 33;
+            isConnectedToFirstPort = !isConnectedToFirstPort; // Cambiar al otro puerto
+            int num_res =SendRequestToServer(ip,request); // Intentar conectar al otro puerto
+            return num_res;
         }
         finally
         {
@@ -349,27 +392,39 @@ public class Cliente : MonoBehaviour
             }
         }
     }
+
+    char[] ConvertHexStringToCharArray(string hex)
+    {
+        int length = hex.Length / 2;
+        char[] buffer = new char[length];
+        for (int i = 0; i < length; i++)
+        {
+            buffer[i] = (char)Convert.ToByte(hex.Substring(i * 2, 2), 16);
+        }
+        return buffer;
+    }
+
     public void checkAnswerServer(int ans){
-        //debug.Log($"{ans}");
+        Debug.Log($"{ans}");
         if(ans==-1 || ans==0){
-            //debug.Log($"Soy {ans}");
+            Debug.Log($"Soy {ans}");
             login = false;
         }else if(ans==76){ //nombre en uso
-            //debug.Log("Soy 76");
+            Debug.Log("Soy 76");
             RegUser.text="";
             RegPass.text="";
             RegPassVal.text="";
             error[2].SetActive(true);
             login = false; 
         }else if(ans==87){ //contraseña vunerable (alguien ya la uso)
-            //debug.Log("Soy 87");
+            Debug.Log("Soy 87");
             login = false; 
             RegUser.text="";
             RegPass.text="";
             RegPassVal.text="";
             error[5].SetActive(true);
         }else if(ans==5){
-            //debug.Log("Soy 5");
+            Debug.Log("Soy 5");
             error[0].SetActive(false);
             error[5].SetActive(false);
             error[4].SetActive(true);
@@ -377,7 +432,7 @@ public class Cliente : MonoBehaviour
             error[2].SetActive(false);
             login = true;
         }else if(ans==33){
-            //debug.Log("Soy 33");
+            Debug.Log("Soy 33");
             error[1].SetActive(true);
             error[0].SetActive(false);
             error[2].SetActive(false);
@@ -424,7 +479,7 @@ public class Cliente : MonoBehaviour
     {
         string ipAddress = GetIPAddress();
         string dateTime = GetCurrentDateTime();
-        //debug.Log($"{dateTime}");
+        Debug.Log($"{dateTime}");
         if (nameuser == ""){
             nameuser="SinUsuario";
         }
